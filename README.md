@@ -9,6 +9,14 @@ This is the main implementation file for a simple terminal-based game. The game 
 
 The game is a simple terminal-based game where the player must reach the target point to progress to the next level. The player is represented by the character 'P' and can be moved using the arrow keys. Enemies are represented by the character 'E' and move downwards. The player must avoid the enemies while trying to reach the target point, represented by the character 'T'. The game features multiple levels with increasing difficulty. The player's score is based on the number of levels completed.
 
+## Memory Leaks
+
+The game has 9 memory leaks. These leaks are caused by the ncurses library and are not caused by the game itself. The leaks are caused by the following functions:
+
+- `initscr()`
+- `init_pair()`
+- 'getch()'
+
 ## Features
 
 - Player movement with arrow keys
