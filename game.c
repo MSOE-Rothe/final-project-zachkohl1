@@ -1,3 +1,16 @@
+
+/**
+ * @file game.c
+ * @brief Implementation of the game logic and main function.
+ * 
+ * This file contains the implementation of the game logic, including functions for setting up the game environment,
+ * moving enemies, handling user input, spawning enemies, checking collisions, and drawing the game screen.
+ * The main function initializes the game screen, sets up colors, starts the game loop, and prints the level reached
+ * after the game is over.
+ * 
+ * @author Zach Kohlman, CPE 2600/121
+ * @date 12/2/2023
+ */
 #include <stdio.h>
 #include <stdlib.h>
 #include <ncurses.h>

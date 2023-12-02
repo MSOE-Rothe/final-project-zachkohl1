@@ -11,6 +11,8 @@
 *.ilk
 *.map
 *.exp
+*.vscode
+*.json
 
 # Precompiled Headers
 *.gch

@@ -1,6 +1,6 @@
 CC=gcc
 CFLAGS=-c -Wall -g
-LDFLAGS=-lncurses
+LDFLAGS=-lncurses -lpthread
 SOURCES=game.c
 OBJECTS=$(SOURCES:.c=.o)
 EXECUTABLE=sharks_and_minnows
